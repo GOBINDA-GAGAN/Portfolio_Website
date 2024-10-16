@@ -48,7 +48,9 @@ const Navbar = () => {
           })}
         </ul>
         <div className="flex items-center px-4 py-3 gap-7 bg-[#27272A] rounded-xl text-xl border-[#06B6D4] border">
-          <span>{theme ? <CiDark /> : <CiLight />}</span>
+          <span onClick={()=>{
+            setTheme(!theme)
+          }}>{theme ? <CiDark /> : <CiLight />}</span>
           <span>
             <FaGithub />
           </span>
