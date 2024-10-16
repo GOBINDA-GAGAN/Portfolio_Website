@@ -65,7 +65,7 @@ const Home = () => {
                 alt="gobinda gagan"
                 srcset=""
                 loading="lazy"
-                className=" rounded-lg  h-[70%]"
+                className=" rounded-lg  md:h-[100%] w-[100%]"
               />
               <div className=" flex p-4 justify-center items-center gap-9 rounded-xl">
                 {socialMediaLinks.map((link, index) => {
