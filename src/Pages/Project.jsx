@@ -10,7 +10,7 @@ const Project = () => {
   const [allProjects, setAllProjects] = useState(false);
 
   // Get the top 3 projects or all projects based on state
-  const displayedProjects = allProjects ? projectData : projectData.slice(0, 3);
+  const displayedProjects = allProjects ? projectData : projectData.slice(0, 2);
 
   return (
     <div className="h-full bg-[#000000] overflow-hidden ">
