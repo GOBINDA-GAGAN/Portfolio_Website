@@ -39,12 +39,12 @@ const Home = () => {
             <div className="w-[100%] text-center">
               <h1 className=" text-2xl md:text-5xl font-bold pt-4">
                 Trust me, I'm an{" "}
-                <span className="text-[#06B6D4] font-bold">
+                <span className="text-[#06B6D4] font-bold w">
                   Engineering Student .{" "}
                 </span>
               </h1>
               <p
-                className=" pt-6 pb-6 text-gray-400 md
+                className=" p-3 text-gray-400 md
             "
               >
                 I’m Gobinda Gagan Dey, a passionate 3rd-year Computer Science
