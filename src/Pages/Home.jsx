@@ -35,8 +35,8 @@ const Home = () => {
     <>
       <div className="h-full bg-[#000000] text-white  overflow-x-hidden ">
         <div className=" w-8/12 mx-auto ">
-          <div className=" flex justify-between">
-            <div className="w-[60%]">
+          <div className=" flex justify-between flex-col md:flex-row items-center">
+            <div className="w-[60%] text-center">
               <h1 className=" text-5xl font-bold pt-4">
                 Trust me, I'm an{" "}
                 <span className="text-[#06B6D4] font-bold">
