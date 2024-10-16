@@ -26,7 +26,7 @@ const Navbar = () => {
     },
   ];
 
-  const [theme, setTheme] = useState(false);
+  const [theme, setTheme] = useState(true);
 
   return (
     <nav className="font-custom bg-[#000000] px-10 py-5 ">
