@@ -34,8 +34,8 @@ const Contact = () => {
         }
       />
 
-      <div className=" p-11">
-        <div className=" w-6/12  mx-auto bg-slate-300 rounded-xl">
+      <div className=" md:p-11 p-2">
+        <div className=" md:w-6/12 w-full  mx-auto bg-slate-300 rounded-xl">
           <div
             className=" flex justify-between items-center bg-slate-500  p-3 rounded-t-xl
       "
@@ -52,11 +52,11 @@ const Contact = () => {
 
           <div className="p-2 flex gap-1 w-full ">
             <div className=" p-5 w-1/2">
-              <div>
-                <h2 className="text-pink-600 text-4xl font-bold leading-tight">
+              <div className=" md:text-4xl text-2xl">
+                <h2 className="text-pink-600  font-bold leading-tight">
                   CONTACT
                 </h2>
-                <h2 className="text-pink-600 text-4xl font-bold leading-tight mb-4">
+                <h2 className="text-pink-600  font-bold leading-tight mb-4">
                   ME
                 </h2>
                 <div className=" mb-6">
@@ -64,14 +64,14 @@ const Contact = () => {
                     src="/logo 2.png"
                     alt=""
                     srcset=""
-                    className=" w-96 h-72 rounded-md object-cover"
+                    className=" md:w-96 md:h-72 h-48 rounded-md object-cover"
                   />
                 </div>
                 <p className="text-sm text-gray-500"></p>
               </div>
             </div>
 
-            <div className=" p-5 w-1/2">
+            <div className="  w-1/2">
               <form onSubmit={handleSubmit} className="mt-6">
                 <div className="grid grid-cols-1 gap-6">
                   <input
