@@ -44,7 +44,7 @@ const Home = () => {
                 </span>
               </h1>
               <p
-                className=" pt-9 pb-9 text-gray-400 md
+                className=" pt-6 pb-6 text-gray-400 md
             "
               >
                 I’m Gobinda Gagan Dey, a passionate 3rd-year Computer Science
@@ -55,7 +55,7 @@ const Home = () => {
                 tutorials, and innovative gadgets. Join me in this thrilling
                 adventure through the world of technology!✨
               </p>
-              <div>
+              <div className=" m-3 grid place-items-center">
                 <Button></Button>
               </div>
             </div>
