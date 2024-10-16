@@ -61,7 +61,7 @@ const Contact = () => {
                 </h2>
                 <div className=" mb-6">
                   <img
-                    src="/public/logo 2.png"
+                    src="/logo 2.png"
                     alt=""
                     srcset=""
                     className=" w-96 h-72 rounded-md object-cover"
