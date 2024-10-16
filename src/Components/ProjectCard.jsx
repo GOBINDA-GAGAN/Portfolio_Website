@@ -3,7 +3,7 @@ import Button2 from "./Button2";
 
 const ProjectCard = ({ project }) => {
   return (
-    <div className=" p-2 rounded-b-md w-[280px] bg-[#1F1F1F] border-blue-100 border rounded-lg hover:scale-105 transition-all ">
+    <div className=" p-2 rounded-b-md w-[300px]  h-full bg-[#1F1F1F] border-blue-100 border rounded-lg hover:scale-105 transition-all ">
       <div>
         <img
           src={project.image}

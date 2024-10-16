@@ -20,7 +20,7 @@ const Project = () => {
           "Project is a temporary effort designed to achieve a unique goal or result."
         }
       />
-      <div className="w-8/12 mx-auto text-white">
+      <div className=" md:w-9/12 w-full mx-auto text-white">
         <div className="px-4 py-2  flex  justify-between items-center rounded-xl">
           <div className="flex gap-3 items-center">
             <p
