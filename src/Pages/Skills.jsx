@@ -13,7 +13,7 @@ const Skills = () => {
         }
       ></Title>
       <div className=" md:w-9/12 w-full mx-auto  rounded-lg w">
-        <div className=" w-full p-4">
+        <div className=" w-full ">
           <div className=" grid md:grid-cols-2 xl:grid-cols-3  place-items-center flex-1 gap-5">
             {skills.map((item, index) => {
               return (
