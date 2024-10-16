@@ -34,7 +34,7 @@ const Home = () => {
   return (
     <>
       <div className="h-full bg-[#000000] text-white  overflow-x-hidden ">
-        <div className=" w-9/12 mx-auto ">
+        <div className=" md:w-9/12 mx-auto w-full ">
           <div className=" flex justify-between flex-col md:flex-row items-center">
             <div className="w-[100%] text-center">
               <h1 className=" text-2xl md:text-5xl font-bold pt-4">
