@@ -21,8 +21,8 @@ const Project = () => {
         }
       />
       <div className=" md:w-9/12 w-full mx-auto text-white">
-        <div className="px-4 py-2  flex  justify-between items-center rounded-xl">
-          <div className="flex gap-3 items-center">
+        <div className="px-4 py-2  flex  justify-between items-center rounded-xl md:flex-row flex-col  gap-2">
+          <div className="md:flex gap-3 items-center">
             <p
               className={`font-semibold bg-slate-600 hover:bg-slate-500 px-2 py-1 rounded-xl transition-transform cursor-pointer`}
               onClick={() => setAllProjects(false)}
