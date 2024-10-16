@@ -34,17 +34,17 @@ const Home = () => {
   return (
     <>
       <div className="h-full bg-[#000000] text-white  overflow-x-hidden ">
-        <div className=" w-8/12 mx-auto ">
+        <div className=" w-9/12 mx-auto ">
           <div className=" flex justify-between flex-col md:flex-row items-center">
-            <div className="w-[60%] text-center">
-              <h1 className=" text-5xl font-bold pt-4">
+            <div className="w-[100%] text-center">
+              <h1 className=" text-2xl md:text-5xl font-bold pt-4">
                 Trust me, I'm an{" "}
                 <span className="text-[#06B6D4] font-bold">
                   Engineering Student .{" "}
                 </span>
               </h1>
               <p
-                className=" pt-9 pb-9 text-gray-400 
+                className=" pt-9 pb-9 text-gray-400 md
             "
               >
                 I’m Gobinda Gagan Dey, a passionate 3rd-year Computer Science
